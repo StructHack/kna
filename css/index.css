@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg:#3467eb;
+    --text:#ffffff
+}
+
+body{
+    color:var(--text);
+    font-family: arial;
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em;
+    background-image: url('../img/x.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 700px;
+    border-radius: 25px 45px 0px 45px;
+    overflow: hidden;
+    padding:1em;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 1em;
+}
+
+.name-container{
+    padding: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+.main-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1em
+}
+.main-container form input[type='text']{
+    width: 100%;
+    padding:10px;
+    font-size: 2em;
+    border:none;
+    background-color: #222;
+    color:white;
+    margin-top:0.5em;
+    border-radius: 5px;
+}
+.main-container form input[type='submit']{
+    padding: 5px 10px;
+    background-color: black;
+    color:white;
+    font-size:1.4em;
+    border:none
+}
+
+table{
+    width: 100%;
+}
+
+table,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+td{
+    padding:0.5em 1em
+}
+.create{
+    padding:10px;
+    color:black
+}
